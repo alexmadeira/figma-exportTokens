@@ -1,0 +1,19 @@
+{
+    "name": "Color-token-Export",
+    "version": "1.0.0",
+    "description": "Your Figma Plugin",
+    "main": "code.js",
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "watch": "webpack --watch"
+    },
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "@figma/plugin-typings": "*",
+        "ts-loader": "^9.4.1",
+        "typescript": "*",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+    }
+}
